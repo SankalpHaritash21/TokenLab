@@ -6,13 +6,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100;
+  background-color: #f7fafc; /* Equivalent to bg-gray-100 */
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-300 rounded-full;
+  background-color: #e2e8f0; /* Equivalent to bg-gray-300 */
+  border-radius: 9999px; /* Equivalent to rounded-full */
 }
 
 .react-syntax-highlighter {
-  @apply rounded-lg !important;
+  border-radius: 0.5rem !important; /* Equivalent to rounded-lg */
 }
